@@ -1,0 +1,24 @@
+# Demo Configuration
+
+# --- Path Settings ---
+ckpt_path: ./checkpoints/mtl_dora_ckpt
+input_dir: ./demo_images
+output_folder: ./predicted
+
+# --- Model Settings ---
+backbone_name: PE-Core-L14-336
+rank: 64
+use_peft: true
+use_deep_head: true
+use_mtlora: false
+load_heads: false
+only_most_confident: false
+
+# --- Detection Settings ---
+detection_confidence: 0.5
+
+# --- Tasks ---
+tasks:
+  - Gender
+  - Age
+  - Emotion

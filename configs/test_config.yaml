@@ -1,0 +1,17 @@
+# Testing Configuration
+
+# --- Run & Path Settings ---
+name: Test_Run_From_Config
+output_dir: ./testing_outputs
+ckpt_path: .
+setup_from_json: .
+labels_root: ./labels
+image_base_root: .
+
+# --- Dataset Settings ---
+dataset_names:
+  - RAF-DB
+
+# --- Hyperparameter Settings ---
+batch_size: 16
+device: cuda

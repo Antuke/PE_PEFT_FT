@@ -1,0 +1,17 @@
+# for demo:
+opencv-python       # for face detector
+torch               # machine learning framework (SHOULD INSTALL WITH CUDA!!!)
+torchvision         # machine learning framework (SHOULD INSTALL WITH CUDA!!!)
+peft                # parameter-efficient framework
+python-dotenv       # to laod pe
+einops              # perception encoders requirement
+timm                # perception encoders requirement
+ftfy                # perception encoders requirement
+tqdm                # progress bar
+
+# for testing and training
+scikit-learn        # for computing metrics
+pandas              # for handling .csv
+matplotlib          # for plotting
+seaborn             # for producing confusion matrices
+pyyaml              # for parsing yaml config files

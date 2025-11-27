@@ -1,0 +1,49 @@
+# Training Configuration
+
+# --- Task & Dataset Settings ---
+tasks:
+  - Gender
+  - Emotion
+dataset_names:
+  - RAF-DB
+# Workers to instantiate for DataLoader
+num_workers: 2
+
+# --- Model & PEFT Settings ---
+# Vision encoder to use
+backbone_name: PE-Core-L14-336
+
+# Model settings
+use_deep_head: true
+use_peft: true
+use_mtlora: false
+lp: true
+ap: false
+unfreeze_layers: 99
+
+# --- Hyperparameter Settings ---
+epochs: 20
+batch_size: 16
+learning_rate: 1.0e-4
+weight_decay: 0.01
+rank: 64
+lora_plus_lambda: 6
+backbone_lr_ratio: 0.1
+
+# --- Training Flags ---
+use_grad_checkpointing: true
+use_running_means: false
+use_uw: true
+balanced_sampling: true
+use_early_stopping: true
+use_avg_val_to_early_stop: true
+use_avg_acc_to_early_stop: false
+compile_model: false
+
+# --- Path Settings ---
+output_dir: ./training_outputs
+labels_root: ./labels
+image_base_root: .
+name: DoRA_TRAIN
+device: cuda
+seed: 42
