@@ -1,0 +1,13 @@
+FaR-PE-Finetune
+Copyright [2024] [Your Name or Organization]
+
+This product includes software developed by [Name of Original Copyright Owner/Project]
+(https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
+
+-------------------------------------------------------------------------
+Portions of this software were originally based on [Name of Original VLM]:
+Copyright [Year] [Original Copyright Owner]
+
+[If the original repo had a NOTICE file, paste its contents here. 
+If not, you can delete this bracketed section.]
+-------------------------------------------------------------------------

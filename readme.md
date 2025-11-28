@@ -1,3 +1,9 @@
+## Hugging Face Space
+
+[Hugging Face Space](https://huggingface.co/spaces/Antuke/FaR-FT-PE)
+
+[Demo Repo](https://github.com/Antuke/demo_far)
+
 ## Setup
 
 Before you can execute the scripts provided, please run the following command, while in the folder that contains the file "setup.py":
