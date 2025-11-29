@@ -32,7 +32,9 @@ wheels/
 .DS_Store
 
 # Project specific outputs
-checkpoints/
+checkpoints/*
+!checkpoints/mtl_dora_ckpt/
+!checkpoints/mtl_mtlora_ckpt/
 predicted/
 testing_outputs/
 training_outputs/
